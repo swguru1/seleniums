@@ -1,7 +1,6 @@
-<project name="Sample usage of selenium" default="" basedir=".." xmlns:sf="antlib:com.salesforce">
+<project name="Sample usage of selenium" default="" basedir="." xmlns:sf="antlib:com.salesforce">
 
-    <property file="${basedir}/build/build.properties"/>
-    <property environment="env"/>
+   
 	<path id="project-classpath">
 
 	    <fileset dir="./lib" includes="*.jar"/>
