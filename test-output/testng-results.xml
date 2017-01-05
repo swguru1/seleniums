@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13771" started-at="2017-01-04T13:25:19Z" finished-at="2017-01-04T13:25:33Z">
+  <suite name="Default suite" duration-ms="15888" started-at="2017-01-05T04:52:33Z" finished-at="2017-01-05T04:52:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13771" started-at="2017-01-04T13:25:19Z" finished-at="2017-01-04T13:25:33Z">
+    <test name="Default test" duration-ms="15888" started-at="2017-01-05T04:52:33Z" finished-at="2017-01-05T04:52:49Z">
       <class name="TestLocalRun">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestLocalRun@1810399e]" name="setUp" is-config="true" duration-ms="10785" started-at="2017-01-04T18:55:19Z" finished-at="2017-01-04T18:55:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestLocalRun@1810399e]" name="setUp" is-config="true" duration-ms="10339" started-at="2017-01-05T10:22:33Z" finished-at="2017-01-05T10:22:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGoogleSearch()[pri:0, instance:TestLocalRun@1810399e]" name="testGoogleSearch" duration-ms="1407" started-at="2017-01-04T18:55:30Z" finished-at="2017-01-04T18:55:31Z">
+        <test-method status="PASS" signature="testGoogleSearch()[pri:0, instance:TestLocalRun@1810399e]" name="testGoogleSearch" duration-ms="1930" started-at="2017-01-05T10:22:43Z" finished-at="2017-01-05T10:22:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoogleSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestLocalRun@1810399e]" name="tearDown" is-config="true" duration-ms="1561" started-at="2017-01-04T18:55:31Z" finished-at="2017-01-04T18:55:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestLocalRun@1810399e]" name="tearDown" is-config="true" duration-ms="3597" started-at="2017-01-05T10:22:45Z" finished-at="2017-01-05T10:22:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

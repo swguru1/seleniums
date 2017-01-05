@@ -6,6 +6,7 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -31,6 +32,7 @@ public class TestLocalRun {
      public void testGoogleSearch() {	 
     		   
     		 driver.get("http://www.google.com"); 
+    		 Assert.assertEquals("Google",driver.getTitle());
       
      }
      @AfterTest 
