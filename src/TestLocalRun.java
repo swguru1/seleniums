@@ -32,7 +32,7 @@ public class TestLocalRun {
      public void testGoogleSearch() {	 
     		   
     		 driver.get("http://www.google.com"); 
-    		 Assert.assertEquals("Google45",driver.getTitle());
+    		 Assert.assertEquals("Google",driver.getTitle());
       
      }
      @AfterTest 
