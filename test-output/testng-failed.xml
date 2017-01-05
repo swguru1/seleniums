@@ -6,6 +6,7 @@
       <class name="TestLocalRun">
         <methods>
           <include name="testGoogleSearch"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- TestLocalRun -->
