@@ -3,9 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+      <class name="Invalidloginjava">
+        <methods>
+          <include name="setUp"/>
+          <include name="testInvalidloginjava"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Invalidloginjava -->
       <class name="TestLocalRun">
         <methods>
-          <include name="testGoogleSearch"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

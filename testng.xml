@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="TestLocalRun"/>
+      
+      <class name="Invalidloginjava"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

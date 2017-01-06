@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="TestLocalRun">
+      <class name="Invalidloginjava">
         <methods>
-          <include name="testGoogleSearch"/>
           <include name="setUp"/>
+          <include name="testInvalidloginjava"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- TestLocalRun -->
+      </class> <!-- Invalidloginjava -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
