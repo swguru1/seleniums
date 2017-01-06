@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -16,8 +17,9 @@ public class Invalidloginjava {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-	  System.setProperty("webdriver.gecko.driver","./lib/geckodriver");
-    driver = new FirefoxDriver();
+	 
+	  System.setProperty("webdriver.chrome.driver","./lib/chromedriver.exe");
+ 	 driver = new ChromeDriver();
     baseUrl = "http://newtours.demoaut.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
