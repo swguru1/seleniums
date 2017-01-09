@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Invalidloginjava">
+      <class name="capgwiki">
         <methods>
-          <include name="setUp"/>
-          <include name="testInvalidloginjava"/>
+          <include name="testCaphwiki"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- Invalidloginjava -->
+      </class> <!-- capgwiki -->
       <class name="TestLocalRun">
         <methods>
           <include name="tearDown"/>
